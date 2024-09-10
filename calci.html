@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalak_calci</title>
+    <link rel="stylesheet" href="styleforcalci.css">
+    <script src="workofcalci.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="overall">
+            <br>
+            <input type="text" id='input' placeholder="0">
+            
+            <div class="cal">
+            <form>
+                <div class="b" >
+                    <input type="button" class="but" id="clear"  value="AC" onclick="del()" >
+                    <input type="button" class="but" id="ba" value="←" onclick="back()" >
+                    <input type="button" class="but" id="mod" value="%" onclick="enter('%')" >
+                    <input type="button" class="but" id="slash" value="/" onclick="enter('/')" >
+                </div> 
+
+                <div class="b">
+                    <input type="button" class="but" id="seven" value="7" onclick="enter('7')" >
+                    <input type="button" class="but" id="eight" value="8" onclick="enter('8')" >
+                    <input type="button" class="but" id="nine" value="9" onclick="enter('9')" >
+                    <input type="button" class="but" id="star" value="*" onclick="enter('*')" >
+                </div> 
+
+                <div class="b">
+                    <input type="button" class="but" id="four" value="4" onclick="enter('4')" >
+                    <input type="button" class="but" id="five" value="5" onclick="enter('5')" >
+                    <input type="button" class="but" id="six" value="6" onclick="enter('6')" >
+                    <input type="button" class="but" id="minus" value="-" onclick="enter('-')" >
+                </div> 
+
+                <div class="b" >
+                    <input type="button" class="but" id="one" value="1" onclick="enter('1')" >
+                    <input type="button" class="but" id="two" value="2" onclick="enter('2')" >
+                    <input type="button" class="but" id="three" value="3" onclick="enter('3')" >
+                    <input type="button" class="but" id="plus" value="+" onclick="enter('+')" >
+                </div> 
+
+                <div class="b">
+                    <input type="button" class="but" id="twozero" value="00" onclick="enter('00')" >
+                    <input type="button" class="but" id="zero" value="0" onclick="enter('0')" >
+                    <input type="button" class="but" id="dot" value="." onclick="enter('.')" >
+                    <input type="button" class="but" id="equal" value="=" onclick="res()" style="flex-grow: 1;">
+                </div>
+                
+            </form> 
+            </div>
+        </div>
+    </center>
+
+
+</body>
+</html>
+
+

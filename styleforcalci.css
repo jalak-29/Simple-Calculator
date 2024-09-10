@@ -1,0 +1,49 @@
+.b{
+    margin: 5px;
+    padding: 5px;
+}
+.overall{
+    display:inline-table;
+    margin: 150px black;
+    border: 50px;
+    background-color:rgb(9, 46, 102);
+    border-radius: 3%; 
+}
+#input{
+    height: 30px;
+    width: 80%;
+    margin-top:  30px;
+    padding: 5px;
+    text-align: right;
+    border-width: 6px;
+    border-color: rgb(68, 68, 60);
+    background-color:rgb(32, 196, 207);
+    font-family:cursive;
+    font-size: large;
+}
+input:hover{
+    background-color:rgb(32, 196, 207);
+    color:white;
+}
+.cal{
+    width: 370px;
+    height: 450px;
+    border: 1px;
+    padding: 15px;
+    margin: 10px;
+}
+.but{
+    height: 65px;
+    width: 60px;
+    padding: 1px;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(29, 200, 212);
+}
+
+
+
+
+
+
